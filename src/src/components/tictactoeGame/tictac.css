@@ -1,0 +1,42 @@
+.container{
+    text-align: center;
+}
+.box{
+    width: 90px;
+    height: 80px;
+    border: 2px solid #000;
+    display: inline-block;
+    line-height: 54px;
+    font-size: 60px;
+}
+
+.board{
+    display: inline-flex;
+    flex-wrap: wrap; 
+    width: 270px; 
+}
+
+.player{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.player input[type=radio]{
+margin-right: 10px;
+margin-left: 10px;
+cursor: pointer;
+height: 16px;
+width: 16px;
+}
+
+.player input[type=submit]{
+    cursor: pointer;
+}
+
+.animated {
+    text-align: center;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  }
+  
+  
